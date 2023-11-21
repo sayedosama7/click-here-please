@@ -16,7 +16,15 @@
     line-height: 1.5;
     text-transform: capitalize;
 }
-
+.clone::before {
+    content: "\f556";
+    font-family: "Font Awesome 5 Free";
+    color: #f00;
+    padding: 10px 14px;
+    border-radius: 50%;
+    margin-left: 10px;
+    cursor: pointer;
+}
 .clone2::after {
     font-family: "Font Awesome 5 Free";
     content: "\f00d";
