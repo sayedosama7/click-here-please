@@ -1,6 +1,6 @@
 
 document.body.addEventListener("click", function () {
-    let myP = document.createElement("h1")
+    let myP = document.createElement("h4")
     myPText = document.createTextNode("You have been hacked")
     myP.className = "clone"
     myP.appendChild(myPText)
